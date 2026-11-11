@@ -1,0 +1,9 @@
+arm=baseline rounds=1 model=deepseek-flash
+run_id=baseline-v3 wall_clock_s=966.9
+llm_calls=61 prompt_tokens=483083 completion_tokens=168804
+
+Resolved cells: 3 · pending: 0
+- Hold: n=2, no direction claimed, mean alpha +1.45% vs the benchmark
+- Underweight: n=1, called the direction 100%, mean alpha -0.20% vs the benchmark
+
+Alpha is measured over 5 trading days from the first close after each analysis date. One model sampling per cell, and text feeds are not archived, so these figures are indicative rather than repeatable.

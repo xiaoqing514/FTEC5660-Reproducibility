@@ -1,0 +1,8 @@
+arm=modified rounds=0 model=deepseek-flash
+run_id=modified-v1 wall_clock_s=785.5
+llm_calls=53 prompt_tokens=382927 completion_tokens=145673
+
+Resolved cells: 3 · pending: 0
+- Overweight: n=3, called the direction 67%, mean alpha +0.90% vs the benchmark
+
+Alpha is measured over 5 trading days from the first close after each analysis date. One model sampling per cell, and text feeds are not archived, so these figures are indicative rather than repeatable.

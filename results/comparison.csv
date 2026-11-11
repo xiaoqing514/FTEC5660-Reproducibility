@@ -1,0 +1,4 @@
+﻿ticker,date,rating_baseline,rating_modified,raw_return_baseline,raw_return_modified,alpha_baseline,alpha_modified,alpha_delta,runtime_s_baseline,runtime_s_modified,llm_calls_baseline,llm_calls_modified,tokens_in_baseline,tokens_in_modified,tokens_out_baseline,tokens_out_modified,rating_agrees
+AAPL,2026-10-06,Hold,Overweight,+1.9%,+1.9%,+2.8%,+2.8%,+0.00%,355.0,256.1,20,16,181776,124619,61395,48734,no
+AAPL,2026-10-13,Underweight,Overweight,+0.3%,+0.3%,-0.2%,-0.2%,+0.00%,320.1,298.7,21,18,154840,140334,57633,54816,no
+AAPL,2026-10-20,Hold,Overweight,-0.0%,-0.0%,+0.1%,+0.1%,+0.00%,287.2,226.0,19,18,144687,116670,49521,41907,no

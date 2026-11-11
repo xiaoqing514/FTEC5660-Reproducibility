@@ -1,0 +1,4 @@
+﻿ticker,date,runtime_s,llm_calls,prompt_tokens,completion_tokens,signal,rating,pending,raw_return,alpha,holding,error
+AAPL,2026-10-06,355.0,20,181776,61395,Hold,Hold,False,+1.9%,+2.8%,5d,
+AAPL,2026-10-13,320.1,21,154840,57633,Underweight,Underweight,False,+0.3%,-0.2%,5d,
+AAPL,2026-10-20,287.2,19,144687,49521,Hold,Hold,False,-0.0%,+0.1%,5d,
