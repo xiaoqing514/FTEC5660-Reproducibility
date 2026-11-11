@@ -1,0 +1,22 @@
+# Local secrets and machine-specific artefacts — never commit.
+.env
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+
+# Upstream clone is installed from GitHub, not vendored here.
+TradingAgents/
+
+# Data cache is re-downloadable and large.
+results/_cache/
+.cache/
+
+*.lock
+
+# Recorded presentation media stays out of the repository; submit the video separately.
+report/*.mp4
+report/*.m4a
+report/recording.conf

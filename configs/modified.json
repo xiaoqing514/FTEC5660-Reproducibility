@@ -1,0 +1,36 @@
+﻿{
+    "arm":  "modified",
+    "description":  "Same as baseline except the single change: the bull/bear research debate is shortened by one round (default 1 -\u003e 0).",
+    "changed_field":  "max_debate_rounds",
+    "baseline_value":  1,
+    "modified_value":  0,
+    "llm_provider":  "deepseek",
+    "quick_think_llm":  "deepseek-flash",
+    "deep_think_llm":  "deepseek-flash",
+    "temperature":  0.0,
+    "max_debate_rounds":  0,
+    "max_risk_discuss_rounds":  1,
+    "max_tool_rounds":  8,
+    "holding_period_days":  5,
+    "benchmark_ticker":  "SPY",
+    "ticker":  "AAPL",
+    "analysts":  [
+                     "market",
+                     "news",
+                     "fundamentals"
+                 ],
+    "dates":  [
+                  "2026-10-06",
+                  "2026-10-13",
+                  "2026-10-20"
+              ],
+    "data_vendors":  {
+                         "core_stock_apis":  "yfinance",
+                         "technical_indicators":  "yfinance",
+                         "fundamental_data":  "yfinance",
+                         "news_data":  "yfinance",
+                         "macro_data":  "fred",
+                         "prediction_markets":  "polymarket"
+                     }
+}
+

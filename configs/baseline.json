@@ -1,0 +1,33 @@
+﻿{
+    "arm":  "baseline",
+    "description":  "Repository default configuration; only the LLM provider/model, temperature and keyless data vendors are pinned.",
+    "llm_provider":  "deepseek",
+    "quick_think_llm":  "deepseek-flash",
+    "deep_think_llm":  "deepseek-flash",
+    "temperature":  0.0,
+    "max_debate_rounds":  1,
+    "max_risk_discuss_rounds":  1,
+    "max_tool_rounds":  8,
+    "holding_period_days":  5,
+    "benchmark_ticker":  "SPY",
+    "ticker":  "AAPL",
+    "analysts":  [
+                     "market",
+                     "news",
+                     "fundamentals"
+                 ],
+    "dates":  [
+                  "2026-10-06",
+                  "2026-10-13",
+                  "2026-10-20"
+              ],
+    "data_vendors":  {
+                         "core_stock_apis":  "yfinance",
+                         "technical_indicators":  "yfinance",
+                         "fundamental_data":  "yfinance",
+                         "news_data":  "yfinance",
+                         "macro_data":  "fred",
+                         "prediction_markets":  "polymarket"
+                     }
+}
+
